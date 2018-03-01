@@ -16,7 +16,7 @@ The main window has all you need :
 Main Window
 ---------------
 
-![MAIN](img/main_1.jpg)
+![MAIN](img/main_1.png)
 
 
 * 1 : login/logout
