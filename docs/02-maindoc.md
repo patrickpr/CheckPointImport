@@ -19,7 +19,7 @@ Status :
 
 * New : the object will be pushed to management when “send” is clicked.
 * OK : the object was sent to the management and accepted without warnings
-* ERR <message> : the object was sent to management who replied with a warning (object created) or error (object not created).
+* ERR <message> : the object was sent to management who replied with a warning or error (object not created).
 
 ------------------
 
