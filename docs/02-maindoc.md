@@ -34,5 +34,6 @@ A keepalive is sent after successful login, so you will never be disconnected
 
 ![LOGIN](img/login_1.png)
 
-A message box appears at the end of successful login that displays information sent by management.
+A message box appears at the end of successful login that displays information sent by management (can be empty !).
 
+Next : ![import objects](03-import_objects.md)
