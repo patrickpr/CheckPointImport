@@ -5,6 +5,7 @@ Import Host/nets/…. (all except rules)
 --------------------------------------
 
 Copy the data, then paste (ctrl-v or File->Paste)
+Data source can be in an excel spreadsheet or text file with columns separated by tabs : just select / copy and paste in main window
 
 ![paste](img/paste_1.png)
 
