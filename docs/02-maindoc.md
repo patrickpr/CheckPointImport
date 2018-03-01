@@ -1,18 +1,6 @@
 Documentation
 ===============
 
-This software is all about creating certs/csr and keys quickly. 
-
-Be careful to save you certificates and keys, as the software won't warn you about unsaved changes !
-
-The main window has all you need : 
-
-* Subject : all elements that will be set in your certificate / CSR. Only the CN will be set in a new CSR
-* Key : type / length of key to generate. Check "password protected" to encrypt your key
-* "Generate button" : see below
-
-
-
 Main Window
 ---------------
 
@@ -27,11 +15,24 @@ Main Window
 * 6 : Abort button : when sending large amout of data.
 * 7 : Logs. All logs are displayed here. Check "Error only" to only display errors.
 
-* Status : 
-New : the object will be pushed to management when “send” is clicked.
-OK : the object was sent to the management and accepted without warnings
-ERR <message> : the object was sent to management who replied with a warning (object created) or error (object not created).
+Status : 
+
+* New : the object will be pushed to management when “send” is clicked.
+* OK : the object was sent to the management and accepted without warnings
+* ERR <message> : the object was sent to management who replied with a warning (object created) or error (object not created).
 
 ------------------
-TODO
-TO BE CONTINUED
+
+
+Login
+-----
+
+
+Enter login/pass / IP information and click Login  (note : abort doesn’t work yet !)
+
+A keepalive is sent after successful login, so you will never be disconnected
+
+![LOGIN](img/login_1.png)
+
+A message box appears at the end of successful login that displays information sent by management.
+
