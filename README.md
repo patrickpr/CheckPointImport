@@ -8,11 +8,7 @@ WARNING : This software is currently beta and I don't recommand using it on a pr
 
 Licence : GPL V3
 
-Planning : 
-- Ability to export data
-- Test soft to go to beta state.
-- Import/export in commnand line 
-
+Status of project : I stopped updating this project on github. Please open an issue if you want fresh release. 
 
 
 See install/documentation ![here](docs/01-installation.md) 
